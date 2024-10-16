@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hut Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="pizza-hut-logo.png" alt="Pizza Hut Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#deals">Deals</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#order">Order Online</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cta">
+                <a href="#order" class="order-btn">Order Now</a>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Craving Greatness? Discover Your Favorite Pizza!</h1>
+            <p>Order now and enjoy the perfect pizza delivered to your door.</p>
+            <a href="#order" class="hero-btn">Start Your Order</a>
+        </div>
+    </section>
+    <section class="featured-menu">
+        <h2>Featured Menu Items</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="pizza1.jpg" alt="Pepperoni Pizza"> <!-- Replace with actual image source -->
+                <h3>Pepperoni Pizza</h3>
+                <p>Classic pepperoni on a delicious cheese pizza.</p>
+                <a href="#order" class="add-to-cart-btn">Add to Cart</a>
+            </div>
+            <div class="menu-item">
+                <img src="pizza2.jpg" alt="Veggie Supreme"> <!-- Replace with actual image source -->
+                <h3>Veggie Supreme</h3>
+                <p>Loaded with fresh veggies on a thin crust.</p>
+                <a href="#order" class="add-to-cart-btn">Add to Cart</a>
+            </div>
+            <div class="menu-item">
+                <img src="pizza3.jpg" alt="BBQ Chicken Pizza"> <!-- Replace with actual image source -->
+                <h3>BBQ Chicken Pizza</h3>
+                <p>Tender chicken with BBQ sauce and cheese.</p>
+                <a href="#order" class="add-to-cart-btn">Add to Cart</a>
+            </div>
+            <div class="menu-item">
+                <img src="pizza4.jpg" alt="Hawaiian Pizza"> <!-- Replace with actual image source -->
+                <h3>Hawaiian Pizza</h3>
+                <p>A sweet and savory combination of ham and pineapple.</p>
+                <a href="#order" class="add-to-cart-btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+    <section class="current-deals">
+        <h2>Current Deals and Promotions</h2>
+        <div class="deals-container">
+            <div class="deal">
+                <div class="deal-banner">
+                    <h3>Buy One Get One Free</h3>
+                    <p>On all large pizzas. Limited time offer!</p>
+                </div>
+                <a href="#order" class="deal-btn">Order Now</a>
+            </div>
+            <div class="deal">
+                <div class="deal-banner">
+                    <h3>20% Off Your First Order</h3>
+                    <p>Sign up for our newsletter to get the discount!</p>
+                </div>
+                <a href="#order" class="deal-btn">Sign Up</a>
+            </div>
+            <div class="deal">
+                <div class="deal-banner">
+                    <h3>Free Side with Any Pizza</h3>
+                    <p>Choose from garlic bread, wings, or dessert.</p>
+                </div>
+                <a href="#order" class="deal-btn">Get This Deal</a>
+            </div>
+        </div>
+    </section>
+    <section class="customer-testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"The best pizza I’ve ever had! Fast delivery and great service!"</p>
+                <h3>— Sarah M.</h3>
+            </div>
+            <div class="testimonial">
+                <p>"I love the variety on the menu. My family always finds something they like!"</p>
+                <h3>— John D.</h3>
+            </div>
+            <div class="testimonial">
+                <p>"Their BBQ chicken pizza is my absolute favorite. Highly recommend!"</p>
+                <h3>— Emily R.</h3>
+            </div>
+            <div class="testimonial">
+                <p>"Great deals and delicious pizzas. Always a pleasure to order from Pizza Hut!"</p>
+                <h3>— Mike T.</h3>
+            </div>
+        </div>
+    </section>
+    <section class="pizza-builder">
+        <h2>Build Your Own Pizza</h2>
+        <div class="builder-container">
+            <div class="pizza-display">
+                <img src="pizza-placeholder.jpg" alt="Your Custom Pizza" id="pizza-image">
+                <!-- Replace with actual image source -->
+            </div>
+            <div class="builder-options">
+                <h3>Select Your Options:</h3>
+                <form>
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+
+                    <label>Toppings:</label>
+                    <div class="toppings">
+                        <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+                        <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                        <input type="checkbox" id="onions" name="topping" value="onions">
+                        <label for="onions">Onions</label>
+                        <input type="checkbox" id="sausage" name="topping" value="sausage">
+                        <label for="sausage">Sausage</label>
+                        <input type="checkbox" id="bacon" name="topping" value="bacon">
+                        <label for="bacon">Bacon</label>
+                        <input type="checkbox" id="vegetables" name="topping" value="vegetables">
+                        <label for="vegetables">Vegetables</label>
+                    </div>
+
+                    <button type="submit" class="order-btn">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>At Pizza Hut, we believe in serving delicious, high-quality pizzas that bring people together. With
+                    over 60 years of experience, we have perfected our recipes and continue to innovate to satisfy your
+                    cravings.</p>
+                <p>From our classic pan pizzas to the latest flavor creations, we are committed to providing an
+                    exceptional dining experience, whether in our restaurants or delivered to your door. Join us in
+                    celebrating good food and great times!</p>
+            </div>
+            <div class="about-image">
+                <img src="about-us-image.jpg" alt="Pizza Hut Family" /> <!-- Replace with actual image source -->
+            </div>
+        </div>
+    </section>
+    <section class="location-finder">
+        <h2>Find Your Nearest Pizza Hut</h2>
+        <div class="location-content">
+            <div class="map-container">
+                <!-- Replace with an actual map embed or API -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509273!2d144.96305771531593!3d-37.81627997975187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f1f2bcb%3A0xb78e4b17d859b27b!2sPizza%20Hut!5e0!3m2!1sen!2sus!4v1617886482951!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="location-search">
+                <h3>Search for Locations</h3>
+                <input type="text" id="location-input" placeholder="Enter your city or zip code" />
+                <button type="button" class="search-btn">Search</button>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter-signup">
+        <h2>Join Our Newsletter</h2>
+        <p>Get the latest deals and pizza news straight to your inbox!</p>
+        <form class="signup-form">
+            <input type="email" id="email" placeholder="Enter your email address" required />
+            <button type="submit" class="signup-btn">Sign Up</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/pizzahutindia/" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/pizzahutin?lang=en" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/pizzahut/?hl=en" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/pizza-hut" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pizza Hut. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
